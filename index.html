@@ -389,7 +389,7 @@
                 </div>
             </div>
 
-            <p id="lock-error" style="color:#ff4d4d; margin-top:15px; display:none; font-size:13px; font-weight:bold;">❌ Access Denied</p>
+            <p id="lock-error" style="color:#ff4d4d; margin-top:15px; display:none; font-size:13px; font-weight:bold;">Nope. If that's a key given by Lyler, email again for a fix.</p>
         </div>
     `;
     
@@ -410,7 +410,7 @@
         errorMsg.style.display = 'block';
         dropZone.style.borderColor = '#ff4d4d';
         setTimeout(() => {
-            errorMsg.style.display = 'Nope, if thats a file given by Lyler email again and he will fix it';
+            errorMsg.style.display = '';
             dropZone.style.borderColor = '#444';
         }, 3000);
     }
